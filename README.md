@@ -99,7 +99,7 @@ To get the device into update mode:
   - Tap the other button and then unpress/let go of the “B” button.
   - The board will appear as a USB drive “RPI-RP2”.
 - Drop the file in the drive.
-- The update is complete. The green LED should be slowly pulsatin.
+- The update is complete. The green LED should slowly pulsate.
 
 Update mode can be accessed (with firmware starting at v0.3.3) with the serial command ‘update’.
 
