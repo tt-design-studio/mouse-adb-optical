@@ -1,6 +1,8 @@
 # Purchase Links
+
 - [Apple ADB Mouse (original 80's wedge design)](https://www.tindie.com/products/ttdesign/apple-desktop-bus-adb-optical-mouse-retro-board/)
 - [Apple ADB Mouse II (rounded 90's design)](https://www.tindie.com/products/ttdesign/apple-desktop-bus-adb-ii-optical-mouse-retro-board/)
+  
 # Project Info
 
 This DIY install project is for a series of optical sensor replacement boards that update the original Apple Desktop Bus Mouse (I and II) for Macintosh computers. The boards utilize the original ADB port/protocol which was introduced with the Apple IIGS, Macintosh SE and Macintosh II and was used until the late 90s. If you want to modernize your mouse or If your mouse has lost its ball or it has stopped working, this board will help get it back into service. 
@@ -97,7 +99,7 @@ To get the device into update mode:
 - Getting the device into reset mode:
   - Press and hold the “B” button on the microcontroller board.
   - Tap the other button and then unpress/let go of the “B” button.
-  - The board will appear as a USB drive “RPI-RP2”.
+  - The LED color will change to white and the board will appear as a USB drive “RPI-RP2”.
 - Drop the file in the drive.
 - The update is complete. The green LED should slowly pulsate.
 
