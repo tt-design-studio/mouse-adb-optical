@@ -89,17 +89,18 @@ For firmware versions 0.3.3 and higher, the speed setting, 1-6 is applied in a s
   -  So the default setting would be hex value 0x51 (entered as '0051' in ADB Parser) for speed = 5 and CPI of 100
   -  As another example, hex value 0x32 (entered as '0032' in ADB Parser) for speed = 3 and CPI of 200.
 
-# Update Instructions
+# Firmware Update Instructions
 
 To get the device into update mode:
 
 - Connect the board to a computer via USB-C.
 - Getting the device into reset mode:
-Press and hold the “B” button on the microcontroller board.
-Tap the other button and then unpress/let go of the “B” button.
-Connect the USB Device your computer.
-The board will appear as a USB drive “RPI-RP2”
-Drop the file in the drive
+  - Press and hold the “B” button on the microcontroller board.
+  - Tap the other button and then unpress/let go of the “B” button.
+  - The board will appear as a USB drive “RPI-RP2”.
+- Drop the file in the drive.
+- The update is complete. The green LED should be slowly pulsatin.
+
 Update mode can be accessed (with firmware starting at v0.3.3) with the serial command ‘update’.
 
 # Cosmetic Restoration
