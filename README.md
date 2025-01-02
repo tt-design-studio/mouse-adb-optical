@@ -15,15 +15,15 @@ The product is **not a USB device**. It is intended to be used with vintage mach
 
 ### Original ADB Mouse Shell Compatibility
 
-  ✅ **Model G5431** (Made in Taiwan) - Tested and fits
-  ✅ **Model G5431** (Made in Ireland) - Tested and fits
-  ❌ **Model G5431** (Made in USA) - Does not fit
-  ❓ **Model A9M0331** (Made in Taiwan) - Compatibility TBD
-  ❓ **Model A9M0331** (Made in USA) - Compatibility TBD
+- ✅ **Model G5431** (Made in Taiwan) - Tested and fits
+- ✅ **Model G5431** (Made in Ireland) - Tested and fits
+- ❌ **Model G5431** (Made in USA) - Does not fit
+- ❓ **Model A9M0331** (Made in Taiwan) - Compatibility TBD
+- ❓ **Model A9M0331** (Made in USA) - Compatibility TBD
 
 ### ADB Mouse II Shell Compatibility
 
-  ✅ **Model M2706** (Made in Malaysia, Manufactured by Mitsumi) - Tested and fits
+- ✅ **Model M2706** (Made in Malaysia, Manufactured by Mitsumi) - Tested and fits
 
 ### Features
 
