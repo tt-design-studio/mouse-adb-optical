@@ -80,20 +80,22 @@ To install the new board, use a soldering iron and tweezers or needle-nose plier
 
 The CPI can be changed in increments of 100 counts from 100 to 1500. The default setting is 100 CPI like the original mouse.
 
-Adjusting the CPI is probably not typically necessary. Increasing the CPI makes the mouse pointer move faster/longer distances on the screen for a given amount of physical movement. It is added as a feature in case someone has a large high resolution display.
+Adjusting the CPI is probably not typically necessary. Increasing the CPI makes the mouse pointer move faster/longer distances on the screen for a given amount of physical movement. It is added as a feature in case someone has a large high resolution display or limited space. MacOS System software also has settings to change the mouse `speed`.
 
 There are currently two ways to change the CPI setting:
 
 1. With the Macintosh [ADB Parser](http://macintoshgarden.org/apps/adb-parser) application. Input the hex value (0x01 to 0x10) via Listen Register 1 command for the mouse address (usually 3). See below for setting the speed if you have firmware v0.3.3 or later.
-2. Connect via USB-C serial connection to your computer and input the number and press return (100-1600). An easy way to connect is to go to [Huhn Serial Web Terminal](https://serial.huhn.me/) on a Chrome compatible browser to connect to the mouse.
+2. Connect via USB-C serial connection to your computer and input the number and press return (100-1500). An easy way to connect is to go to [Huhn Serial Web Terminal](https://serial.huhn.me/) on a Chrome compatible browser to connect to the mouse.
 
 #### Speed Setting
 
 For firmware versions 0.3.3 and higher, the speed setting, 1-6 is applied in a similar way to the CPI. *A speed setting of 1 is not really a usable setting at this time, it results in unnatural movements. 5 is the default setting.* 
-- In the serial console, just type a number 1-6. 
+- In the serial console, just type a number 1-6 and press 'return`. 
 -  With ADB Parser, you need to enter the speed along with the CPI since it's stored in the lower byte of the 16-bit register 1. 
   -  So the default setting would be hex value 0x51 (entered as '0051' in ADB Parser) for speed = 5 and CPI of 100
   -  As another example, hex value 0x32 (entered as '0032' in ADB Parser) for speed = 3 and CPI of 200.
+
+The speed setting was added after getting feedback from a customer that the game Crystal Quest ignores the OS mouse setting. So for that case, it's possible to set the mouse to a low native speed if that is desired, in their case set the speed to `2`, while using a faster setting in the MacOS "Mouse" control panel.
 
 # Firmware Update Instructions
 
