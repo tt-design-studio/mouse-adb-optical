@@ -5,6 +5,8 @@
   
 # Project Info
 
+<img src="/images/Optical_ADB_Mice.jpg" alt="Optical ADB Mice" width="50%">
+
 This DIY install project is for a series of optical sensor replacement boards that update the original Apple Desktop Bus Mouse (I and II) for Macintosh computers. The boards utilize the original ADB port/protocol which was introduced with the Apple IIGS, Macintosh SE and Macintosh II and was used until the late 90s. If you want to modernize your mouse or If your mouse has lost its ball or it has stopped working, this board will help get it back into service. 
 
 Apple produced several variations of the mice, so before purchasing a board, please open your mouse and check if its internal board matches the general shape shown in this listing. 
