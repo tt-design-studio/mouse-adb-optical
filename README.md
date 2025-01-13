@@ -36,7 +36,7 @@ The product is **not a USB device**. It is intended to be used with vintage mach
 - Ability to change the CPI (counts per inch or resolution) via host machine or USB-C serial port
 - Ability to change the apparent mouse speed
 - Smooth mouse movements
-- Tested with **SE/30**, **Iici**, **Quadra 800**, and **NeXTStation Turbo with ADB port**
+- Tested with **SE/30**, **Iici**, **Quadra 800**, **Apple IIGS**, and **NeXTStation Turbo with ADB port**
 - **Omron switch** for mouse button
 - Easy firmware updates through **drag-and-drop** of firmware files
 - **In-house developed device firmware**
@@ -77,6 +77,12 @@ To install the new board, use a soldering iron and tweezers or needle-nose plier
 | SH   | Black      | Shield       |
 
 # Changing the CPI (Resolution) and Speed Settings
+
+There are 3 ways to change the mouse settings:
+
+1. New [68k ∏ Mouse Application](https://github.com/tt-design-studio/mouse-adb-optical/tree/main/mouse-app-68k)
+2. USB-C Serial Connection
+3. 68k ADB Parser Application
 
 The CPI can be changed in increments of 100 counts from 100 to 1500. The default setting is 100 CPI like the original mouse.
 
