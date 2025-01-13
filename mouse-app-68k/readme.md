@@ -1,5 +1,9 @@
 # 68k Macintosh Application
 
+<p align="center">
+  <img src="../images/∏_ADB_Mouse_App.png" alt="Optical ADB Mice" width="50%">
+</p>
+
 This is the location for 68k application releases. The application allows for easy updates to the mouse settings within a vintage host machine. The application is contained in a Stuffit self expanding application and the uncompressed size is nearly 2 MB.
 
 # Releases
